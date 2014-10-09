@@ -13,9 +13,11 @@
 		7A844A7719E6210B003606B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A7619E6210B003606B6 /* Images.xcassets */; };
 		7A844A7A19E6210B003606B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A7819E6210B003606B6 /* LaunchScreen.xib */; };
 		7A844A8619E6210B003606B6 /* ARNHeaderStretchFlowLayout_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A844A8519E6210B003606B6 /* ARNHeaderStretchFlowLayout_SwiftTests.swift */; };
-		7A844A9119E62223003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A9019E62223003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */; };
 		7A844A9A19E626D9003606B6 /* ARNHeaderStretchFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A844A9819E626D9003606B6 /* ARNHeaderStretchFlowLayout.swift */; };
 		7A844A9C19E633EC003606B6 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A9B19E633EC003606B6 /* image.png */; };
+		7A844A9E19E66055003606B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7A844A9D19E66055003606B6 /* README.md */; };
+		7A844AA019E6607C003606B6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A9F19E6607C003606B6 /* LICENSE */; };
+		7A844AA219E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7A844AA119E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */; };
 		A90248C0D7A45AA6F2226616 /* libPods-ARNHeaderStretchFlowLayout-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8837A3248B4A4036F09D64 /* libPods-ARNHeaderStretchFlowLayout-Swift.a */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +42,11 @@
 		7A844A7F19E6210B003606B6 /* ARNHeaderStretchFlowLayout-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARNHeaderStretchFlowLayout-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A844A8419E6210B003606B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A844A8519E6210B003606B6 /* ARNHeaderStretchFlowLayout_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARNHeaderStretchFlowLayout_SwiftTests.swift; sourceTree = "<group>"; };
-		7A844A9019E62223003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ARNHeaderStretchFlowLayout-Swift.podspec"; sourceTree = "<group>"; };
-		7A844A9219E6222D003606B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7A844A9419E62237003606B6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7A844A9819E626D9003606B6 /* ARNHeaderStretchFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARNHeaderStretchFlowLayout.swift; sourceTree = "<group>"; };
 		7A844A9B19E633EC003606B6 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		7A844A9D19E66055003606B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7A844A9F19E6607C003606B6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A844AA119E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "ARNHeaderStretchFlowLayout-Swift.podspec"; path = "../ARNHeaderStretchFlowLayout-Swift.podspec"; sourceTree = "<group>"; };
 		8E8837A3248B4A4036F09D64 /* libPods-ARNHeaderStretchFlowLayout-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARNHeaderStretchFlowLayout-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD6B20AB85AF850DACEC62 /* Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARNHeaderStretchFlowLayout-Swift/Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		D20B22882E4078ACEE674EA6 /* Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARNHeaderStretchFlowLayout-Swift/Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,9 +135,9 @@
 		7A844A8F19E62216003606B6 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				7A844A9019E62223003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */,
-				7A844A9219E6222D003606B6 /* README.md */,
-				7A844A9419E62237003606B6 /* LICENSE */,
+				7A844AA119E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */,
+				7A844A9D19E66055003606B6 /* README.md */,
+				7A844A9F19E6607C003606B6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -250,8 +252,9 @@
 				7A844A7519E6210B003606B6 /* Main.storyboard in Resources */,
 				7A844A7A19E6210B003606B6 /* LaunchScreen.xib in Resources */,
 				7A844A7719E6210B003606B6 /* Images.xcassets in Resources */,
-				7A844A9119E62223003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec in Resources */,
+				7A844AA219E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec in Resources */,
 				7A844A9C19E633EC003606B6 /* image.png in Resources */,
+				7A844AA019E6607C003606B6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +307,7 @@
 			files = (
 				7A844A9A19E626D9003606B6 /* ARNHeaderStretchFlowLayout.swift in Sources */,
 				7A844A7219E6210B003606B6 /* ViewController.swift in Sources */,
+				7A844A9E19E66055003606B6 /* README.md in Sources */,
 				7A844A7019E6210B003606B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

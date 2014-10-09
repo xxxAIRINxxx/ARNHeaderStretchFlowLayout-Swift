@@ -5,11 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/ARNHeaderStretchFlowLayout-Swift.svg?style=flat)](http://cocoadocs.org/docsets/ARNHeaderStretchFlowLayout-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/ARNHeaderStretchFlowLayout-Swift.svg?style=flat)](http://cocoadocs.org/docsets/ARNHeaderStretchFlowLayout-Swift)
 
+![screenshot1](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout/blob/master/Screenshots/image1.png) &nbsp;&nbsp;&nbsp; ![screenshot2](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout/blob/master/Screenshots/image2.png)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* iOS 8.0+
+
+## Objective-C Version
+
+[ARNHeaderStretchFlowLayout](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout)
+
+* iOS 6.0+
 
 ## Installation
 
@@ -17,10 +27,6 @@ ARNHeaderStretchFlowLayout-Swift is available through [CocoaPods](http://cocoapo
 it, simply add the following line to your Podfile:
 
     pod "ARNHeaderStretchFlowLayout-Swift"
-
-## Author
-
-xxxAIRINxxx, xl1138@gmail.com
 
 ## License
 
