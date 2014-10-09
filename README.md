@@ -9,7 +9,11 @@
 
 ## Usage
 
+waiting...
+CocoaPods doesn't support Swift libraries yet, but a plan is in place: [#2272](https://github.com/CocoaPods/CocoaPods/issues/2272).
+~~
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+~~
 
 ## Requirements
 
@@ -23,10 +27,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+please download [ARNHeaderStretchFlowLayout.swift](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout-Swift/blob/master/Pod/Classes/ARNHeaderStretchFlowLayout.swift)
+
+~~
 ARNHeaderStretchFlowLayout-Swift is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "ARNHeaderStretchFlowLayout-Swift"
+
+~~
 
 ## License
 
