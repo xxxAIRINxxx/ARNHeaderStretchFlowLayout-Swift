@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    @IBOutlet var collectionView : UICollectionView?
+    @IBOutlet weak var collectionView : UICollectionView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,32 +47,3 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         return headerView
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
