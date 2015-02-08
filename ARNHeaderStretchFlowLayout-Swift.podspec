@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "ARNHeaderStretchFlowLayout-Swift"
   s.version          = "0.1.0"
-  s.summary          = "Custom UICollectionViewFlowLayout.(Swift Version)"
+  s.summary          = "Custom UICollectionViewFlowLayout.(Swift lang)"
   s.homepage         = "https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout-Swift"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/*.swift'
+  s.source_files = "Lib/*.swift"
   s.resource_bundles = {
-    'ARNHeaderStretchFlowLayout-Swift' => ['Pod/Assets/*.png']
+    'ARNHeaderStretchFlowLayout-Swift' => ['Lib/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = "Lib/*.h"
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

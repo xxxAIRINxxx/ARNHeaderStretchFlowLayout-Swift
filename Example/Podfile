@@ -1,5 +1,0 @@
-source 'https://github.com/CocoaPods/Specs.git'
-
-target 'ARNHeaderStretchFlowLayout-Swift', :exclusive => true do
-  pod "ARNHeaderStretchFlowLayout-Swift", :path => "../"
-end

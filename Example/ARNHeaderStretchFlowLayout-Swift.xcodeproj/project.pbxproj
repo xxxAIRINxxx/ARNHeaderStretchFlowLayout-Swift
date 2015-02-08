@@ -16,8 +16,7 @@
 		7A844A9C19E633EC003606B6 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A9B19E633EC003606B6 /* image.png */; };
 		7A844AA019E6607C003606B6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7A844A9F19E6607C003606B6 /* LICENSE */; };
 		7A844AA219E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7A844AA119E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */; };
-		7A844AA519E66399003606B6 /* ARNHeaderStretchFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A844AA419E66399003606B6 /* ARNHeaderStretchFlowLayout.swift */; };
-		A90248C0D7A45AA6F2226616 /* libPods-ARNHeaderStretchFlowLayout-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8837A3248B4A4036F09D64 /* libPods-ARNHeaderStretchFlowLayout-Swift.a */; };
+		7ACBBE8A1A873B3300235F64 /* ARNHeaderStretchFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACBBE891A873B3300235F64 /* ARNHeaderStretchFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +44,8 @@
 		7A844A9D19E66055003606B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7A844A9F19E6607C003606B6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7A844AA119E6608A003606B6 /* ARNHeaderStretchFlowLayout-Swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "ARNHeaderStretchFlowLayout-Swift.podspec"; path = "../ARNHeaderStretchFlowLayout-Swift.podspec"; sourceTree = "<group>"; };
-		7A844AA419E66399003606B6 /* ARNHeaderStretchFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARNHeaderStretchFlowLayout.swift; path = ../Pod/Classes/ARNHeaderStretchFlowLayout.swift; sourceTree = "<group>"; };
+		7ACBBE891A873B3300235F64 /* ARNHeaderStretchFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARNHeaderStretchFlowLayout.swift; sourceTree = "<group>"; };
 		8E8837A3248B4A4036F09D64 /* libPods-ARNHeaderStretchFlowLayout-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARNHeaderStretchFlowLayout-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFD6B20AB85AF850DACEC62 /* Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARNHeaderStretchFlowLayout-Swift/Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		D20B22882E4078ACEE674EA6 /* Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARNHeaderStretchFlowLayout-Swift/Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90248C0D7A45AA6F2226616 /* libPods-ARNHeaderStretchFlowLayout-Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +73,6 @@
 				7A844A6C19E6210B003606B6 /* ARNHeaderStretchFlowLayout-Swift */,
 				7A844A8219E6210B003606B6 /* ARNHeaderStretchFlowLayout-SwiftTests */,
 				7A844A6B19E6210B003606B6 /* Products */,
-				E76182F246A887D6013629E4 /* Pods */,
 				91DBC87D883A525FEDD0288F /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +89,7 @@
 		7A844A6C19E6210B003606B6 /* ARNHeaderStretchFlowLayout-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				7A844AA319E6637C003606B6 /* Classes */,
+				7ACBBE881A873B3300235F64 /* Lib */,
 				7A844A9B19E633EC003606B6 /* image.png */,
 				7A844A6F19E6210B003606B6 /* AppDelegate.swift */,
 				7A844A7119E6210B003606B6 /* ViewController.swift */,
@@ -141,13 +136,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7A844AA319E6637C003606B6 /* Classes */ = {
+		7ACBBE881A873B3300235F64 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				7A844AA419E66399003606B6 /* ARNHeaderStretchFlowLayout.swift */,
+				7ACBBE891A873B3300235F64 /* ARNHeaderStretchFlowLayout.swift */,
 			);
-			name = Classes;
-			path = ..;
+			name = Lib;
+			path = ../../Lib;
 			sourceTree = "<group>";
 		};
 		91DBC87D883A525FEDD0288F /* Frameworks */ = {
@@ -158,15 +153,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E76182F246A887D6013629E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D20B22882E4078ACEE674EA6 /* Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig */,
-				CEFD6B20AB85AF850DACEC62 /* Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,11 +160,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A844A8919E6210B003606B6 /* Build configuration list for PBXNativeTarget "ARNHeaderStretchFlowLayout-Swift" */;
 			buildPhases = (
-				8A8CEA9E6095D97121D1220D /* Check Pods Manifest.lock */,
 				7A844A6619E6210B003606B6 /* Sources */,
 				7A844A6719E6210B003606B6 /* Frameworks */,
 				7A844A6819E6210B003606B6 /* Resources */,
-				9BA13868740B9EB6AFFB6255 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,45 +251,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8A8CEA9E6095D97121D1220D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9BA13868740B9EB6AFFB6255 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARNHeaderStretchFlowLayout-Swift/Pods-ARNHeaderStretchFlowLayout-Swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7A844A6619E6210B003606B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A844AA519E66399003606B6 /* ARNHeaderStretchFlowLayout.swift in Sources */,
+				7ACBBE8A1A873B3300235F64 /* ARNHeaderStretchFlowLayout.swift in Sources */,
 				7A844A7219E6210B003606B6 /* ViewController.swift in Sources */,
 				7A844A7019E6210B003606B6 /* AppDelegate.swift in Sources */,
 			);
@@ -428,7 +379,6 @@
 		};
 		7A844A8A19E6210B003606B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D20B22882E4078ACEE674EA6 /* Pods-ARNHeaderStretchFlowLayout-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ARNHeaderStretchFlowLayout-Swift/Info.plist";
@@ -439,7 +389,6 @@
 		};
 		7A844A8B19E6210B003606B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFD6B20AB85AF850DACEC62 /* Pods-ARNHeaderStretchFlowLayout-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ARNHeaderStretchFlowLayout-Swift/Info.plist";

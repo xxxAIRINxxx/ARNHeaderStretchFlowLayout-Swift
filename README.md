@@ -1,23 +1,22 @@
 # ARNHeaderStretchFlowLayout-Swift
 
 [![CI Status](http://img.shields.io/travis/xxxAIRINxxx/ARNHeaderStretchFlowLayout-Swift.svg?style=flat)](https://travis-ci.org/xxxAIRINxxx/ARNHeaderStretchFlowLayout-Swift)
+[![Language: Swift](https://img.shields.io/badge/lang-Swift-yellow.svg?style=flat)](https://developer.apple.com/swift/)
 [![Version](https://img.shields.io/cocoapods/v/ARNHeaderStretchFlowLayout-Swift.svg?style=flat)](http://cocoadocs.org/docsets/ARNHeaderStretchFlowLayout-Swift)
 [![License](https://img.shields.io/cocoapods/l/ARNHeaderStretchFlowLayout-Swift.svg?style=flat)](http://cocoadocs.org/docsets/ARNHeaderStretchFlowLayout-Swift)
 [![Platform](https://img.shields.io/cocoapods/p/ARNHeaderStretchFlowLayout-Swift.svg?style=flat)](http://cocoadocs.org/docsets/ARNHeaderStretchFlowLayout-Swift)
 
-![screenshot1](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout/blob/master/Screenshots/image1.png) &nbsp;&nbsp;&nbsp; ![screenshot2](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout/blob/master/Screenshots/image2.png)
+![capture](capture.gif "capture")
 
 ## Usage
 
-waiting...
-CocoaPods doesn't support Swift libraries yet, but a plan is in place: [#2272](https://github.com/CocoaPods/CocoaPods/issues/2272).
-
-
-~~To run the example project, clone the repo, and run `pod install` from the Example directory first.~~
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
 * iOS 8.0+
+
+- CcoaPods 0.36.0+ (if use CcoaPods)
 
 ## Objective-C Version
 
@@ -27,13 +26,14 @@ CocoaPods doesn't support Swift libraries yet, but a plan is in place: [#2272](h
 
 ## Installation
 
-please download [ARNHeaderStretchFlowLayout.swift](https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout-Swift/blob/master/Pod/Classes/ARNHeaderStretchFlowLayout.swift)
+ARNHeaderStretchFlowLayout-Swift is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
+    pod "ARNHeaderStretchFlowLayout-Swift"
 
-~~ARNHeaderStretchFlowLayout-Swift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:~~
+### Carthage
 
-~~pod "ARNHeaderStretchFlowLayout-Swift"~~
+please wait..
 
 
 ## License

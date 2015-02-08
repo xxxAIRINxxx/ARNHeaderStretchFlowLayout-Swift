@@ -14,24 +14,18 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         var flowLayout:ARNHeaderStretchFlowLayout = ARNHeaderStretchFlowLayout()
         flowLayout.sectionInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0)
         flowLayout.itemSize = CGSizeMake(self.view.frame.size.width, 50)
-        flowLayout.headerReferenceSize = CGSizeMake(self.view.frame.size.width, 160)
+        flowLayout.headerReferenceSize = CGSizeMake(self.view.frame.size.width, 200)
         flowLayout.minimumLineSpacing = 1
         flowLayout.minimumInteritemSpacing = 0
         self.collectionView?.collectionViewLayout = flowLayout
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 15
+        return 10
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
