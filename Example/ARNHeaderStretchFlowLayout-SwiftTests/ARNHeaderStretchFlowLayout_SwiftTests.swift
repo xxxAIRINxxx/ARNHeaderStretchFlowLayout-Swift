@@ -2,7 +2,7 @@
 //  ARNHeaderStretchFlowLayout_SwiftTests.swift
 //  ARNHeaderStretchFlowLayout-SwiftTests
 //
-//  Created by Yos on 2014/10/09.
+//  Created by xxxAIRINxxx on 2014/10/09.
 //  Copyright (c) 2014年 Airin. All rights reserved.
 //
 

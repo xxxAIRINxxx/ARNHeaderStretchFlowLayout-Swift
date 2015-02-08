@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ARNHeaderStretchFlowLayout: UICollectionViewFlowLayout {
+public class ARNHeaderStretchFlowLayout: UICollectionViewFlowLayout {
     
-    override func shouldInvalidateLayoutForBoundsChange(newBounds: CGRect) -> Bool {
+    public override func shouldInvalidateLayoutForBoundsChange(newBounds: CGRect) -> Bool {
         return true
     }
     
-    override func layoutAttributesForElementsInRect(rect: CGRect) -> [AnyObject]? {
+    public override func layoutAttributesForElementsInRect(rect: CGRect) -> [AnyObject]? {
         var offset = self.collectionView!.contentOffset
         var minY = 0 - self.collectionView!.contentInset.top
         
