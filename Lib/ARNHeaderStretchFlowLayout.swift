@@ -17,7 +17,7 @@ public class ARNHeaderStretchFlowLayout: UICollectionViewFlowLayout {
         var offset = self.collectionView!.contentOffset
         var minY = 0 - self.collectionView!.contentInset.top
         
-        var attributes:[UICollectionViewLayoutAttributes] = super.layoutAttributesForElementsInRect(rect) as [UICollectionViewLayoutAttributes]
+        var attributes:[UICollectionViewLayoutAttributes] = super.layoutAttributesForElementsInRect(rect) as! [UICollectionViewLayoutAttributes]
         
         if offset.y < minY {
             var headerSize = self.headerReferenceSize
