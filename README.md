@@ -12,11 +12,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
 ## Requirements
 
+* Xcode 6.4
 * iOS 8.0+
+* Swift 1.2
+* CcoaPods 0.36.0+ (if use CcoaPods)
 
-- CcoaPods 0.36.0+ (if use CcoaPods)
 
 ## Objective-C Version
 
@@ -24,20 +27,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 * iOS 6.0+
 
-## Installation
 
-### CocoaPods
+## CocoaPods
 
 ARNHeaderStretchFlowLayout-Swift is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "ARNHeaderStretchFlowLayout-Swift"
 
-### Carthage
-
-please wait..
-
 
 ## License
 
-ARNHeaderStretchFlowLayout-Swift is available under the MIT license. See the LICENSE file for more info.
+MIT license. See the LICENSE file for more info.
