@@ -23,7 +23,7 @@ public class ARNHeaderStretchFlowLayout: UICollectionViewFlowLayout {
             if offset.y < minY {
                 let headerSize = self.headerReferenceSize
                 let deltaY = fabsf(CFloat(offset.y) - CFloat(minY))
-                _ = _attributes.map() {
+                _attributes.forEach() {
                     let kind = $0.representedElementKind
                     if kind == UICollectionElementKindSectionHeader && $0.indexPath.section == 0 {
                         var headerRect = $0.frame
