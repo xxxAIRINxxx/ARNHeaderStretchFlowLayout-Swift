@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ARNHeaderStretchFlowLayout-Swift
 //
-//  Created by Airin on 2014/10/09.
-//  Copyright (c) 2014 Airin. All rights reserved.
+//  Created by xxxAIRINxxx on 2014/10/09.
+//  Copyright (c) 2014 xxxAIRINxxx. All rights reserved.
 //
 
 import UIKit

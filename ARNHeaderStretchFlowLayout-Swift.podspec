@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ARNHeaderStretchFlowLayout-Swift"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Custom UICollectionViewFlowLayout.(Swift lang)"
   s.homepage         = "https://github.com/xxxAIRINxxx/ARNHeaderStretchFlowLayout-Swift"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

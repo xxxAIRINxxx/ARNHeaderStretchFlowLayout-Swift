@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ARNHeaderStretchFlowLayout-Swift
 //
-//  Created by Airin on 2014/10/09.
-//  Copyright (c) 2014年 Airin. All rights reserved.
+//  Created by xxxAIRINxxx on 2014/10/09.
+//  Copyright (c) 2014 xxxAIRINxxx. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var flowLayout:ARNHeaderStretchFlowLayout = ARNHeaderStretchFlowLayout()
+        let flowLayout:ARNHeaderStretchFlowLayout = ARNHeaderStretchFlowLayout()
         flowLayout.sectionInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0)
         flowLayout.itemSize = CGSizeMake(self.view.frame.size.width, 50)
         flowLayout.headerReferenceSize = CGSizeMake(self.view.frame.size.width, 200)
@@ -29,14 +29,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        var cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! UICollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) 
         
         return cell
     }
     
     func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
         
-        var headerView:UICollectionReusableView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "Header", forIndexPath: indexPath) as! UICollectionReusableView
+        let headerView:UICollectionReusableView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "Header", forIndexPath: indexPath) 
         
         return headerView
     }
